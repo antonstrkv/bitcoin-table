@@ -1,6 +1,7 @@
 {
   "name": "project",
   "version": "0.1.0",
+  "homepage": "https://starikov03.github.io/bitcoin-table",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.21.0"
+    "eslint": "^8.21.0",
+    "gh-pages": "^4.0.0"
   }
 }

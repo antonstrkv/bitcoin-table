@@ -19,7 +19,7 @@ export const loadJson_action = createAsyncThunk(
 
 const initialState = {
 	bitcoinHistoryArray: [],
-	interval: 30,
+	interval: 90,
 	order: 'desc',
 	orderBy: 'date',
 	page: 0,
