@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bitcoin-table/static/js/main.5e964a10.js",
+    "main.js": "/bitcoin-table/static/js/main.707ddb75.js",
     "index.html": "/bitcoin-table/index.html",
-    "main.5e964a10.js.map": "/bitcoin-table/static/js/main.5e964a10.js.map"
+    "main.707ddb75.js.map": "/bitcoin-table/static/js/main.707ddb75.js.map"
   },
   "entrypoints": [
-    "static/js/main.5e964a10.js"
+    "static/js/main.707ddb75.js"
   ]
 }
